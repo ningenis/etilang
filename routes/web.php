@@ -14,3 +14,23 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('book/{id}', function ($id) {
+    return 'Hello World ' . $id;
+});
+
+Route::get('violation', function () {
+    return [
+    	"Melanggar Hukum",
+    	"Tidak Pakai Helm"
+    ];
+});
+
+Route::resource('violations', 'ViolationController@index');
+
+Route::post('hello/test', function () {
+    return 'Hello World 2';
+});
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

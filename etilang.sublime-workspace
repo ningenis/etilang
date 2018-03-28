@@ -1,0 +1,332 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"sta",
+				"static"
+			],
+			[
+				"getPer",
+				"getPersonName"
+			],
+			[
+				"for",
+				"foreach\tforeach …"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"margin-",
+				"margin-left"
+			],
+			[
+				"al",
+				"text-align"
+			],
+			[
+				"pad",
+				"padding-top"
+			],
+			[
+				"start",
+				"startGame"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 150.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/xampp/htdocs/etilang"
+	],
+	"file_history":
+	[
+		"/H/Materi Kuliah/Organisasi dan Arsitektur Komputer/Contoh Tugas Besar/OrkomTubes/ADD/Add.cpp",
+		"/C/xampp/htdocs/voltmeter/gaslpg.sql",
+		"/C/xampp/htdocs/voltmeter/add_data.php",
+		"/C/xampp/htdocs/voltmeter/index.html",
+		"/C/xampp/htdocs/voltmeter/dbconnect.php",
+		"/C/xampp/htdocs/voltmeter/data_review.php",
+		"/C/xampp/phpMyAdmin/config.inc.php",
+		"/C/xampp2/htdocs/kuesioner/_lib/conf/prod.config.php",
+		"/C/xampp2/htdocs/kuesioner/_lib/prod/third/adodb/drivers/adodb-mysql.inc.php",
+		"/C/xampp2/htdocs/kuesioner/wellcome_kuesioner/wellcome_kuesioner_ul_save.php",
+		"/C/xampp2/htdocs/kuesioner/wellcome_kuesioner/wellcome_kuesioner_fim.php",
+		"/C/xampp2/htdocs/kuesioner/_lib/lib/php/nm_data.class.php",
+		"/C/xampp2/htdocs/kuesioner/_lib/lib/php/nm_conv_dados.php",
+		"/C/xampp2/htdocs/kuesioner/wellcome_kuesioner/wellcome_kuesioner.php",
+		"/C/xampp2/htdocs/kuesioner/wellcome_kuesioner/index.php",
+		"/C/xampp2/htdocs/kuesioner/wellcome_kuesioner/wellcome_kuesioner_teste.php",
+		"/C/xampp2/htdocs/kuesioner/wellcome_kuesioner/wellcome_kuesioner_apl.php",
+		"/C/xampp2/htdocs/kuesioner/index.php",
+		"/C/xampp2/htdocs/kuesioner/wellcome_kuesioner/wellcome_kuesioner_session.php",
+		"/C/Users/azkai/Desktop/kuesioner/_lib/css_generated.dat",
+		"/C/Users/azkai/Desktop/kuesioner/sqldump/db_ksndiklat1.sql",
+		"/C/Users/azkai/Desktop/kuesioner/wellcome_kuesioner/wellcome_kuesioner_apl.php",
+		"/C/Users/azkai/Desktop/kuesioner/wellcome_kuesioner/wellcome_kuesioner_session.php",
+		"/C/Users/azkai/Desktop/kuesioner/wellcome_kuesioner/wellcome_kuesioner.php",
+		"/C/Users/azkai/Desktop/kuesioner/wellcome_kuesioner/index.php",
+		"/C/Users/azkai/Desktop/kuesioner/index.php",
+		"/C/xampp/htdocs/berbageek/public/.htaccess",
+		"/C/xampp/htdocs/berbageek/public/index.php",
+		"/C/xampp/htdocs/berbageek/server.php",
+		"/C/Users/azkai/Desktop/Value Proposition Content",
+		"/F/Portfolio/Pribadi/Bahan Freelancer Preferred Program.txt",
+		"/C/xampp/htdocs/berbageek/algoshop.php",
+		"/C/xampp/htdocs/berbageek/whatsapp.php",
+		"/F/Portfolio/PatrIoT/Pasca Keputusan Proposal.txt",
+		"/F/Portfolio/PatrIoT/Notula Kumpul PatrIoT - Bahas Acara Smart City.txt",
+		"/C/Users/azkai/Desktop/Design Pattern/Factory/RunAbstractFactoryPattern.java",
+		"/C/Users/azkai/Desktop/Design Pattern/Builder/RunBuilderPattern.java",
+		"/C/Users/azkai/Desktop/Design Pattern/Observer/RunObserverPattern.java",
+		"/C/Users/azkai/Desktop/Design Pattern/Swing/mdi.java",
+		"/C/Users/azkai/Desktop/Design Pattern/Swing/MyDesktop.java",
+		"/C/Users/azkai/Desktop/Design Pattern/Swing/CustomizedMenuBar.java",
+		"/C/Users/azkai/Desktop/Design Pattern/Swing/menu5.java",
+		"/C/Users/azkai/Desktop/Design Pattern/Swing/WindowListener.java",
+		"/C/Users/azkai/Desktop/Design Pattern/Swing/InputDialog.java",
+		"/C/Users/azkai/Desktop/Design Pattern/Swing/FirstSwingListener.java",
+		"/C/Users/azkai/Desktop/Design Pattern/Swing/FirstSwing.java",
+		"/C/Users/azkai/Desktop/Design Pattern/DumpMethods.java",
+		"/C/Users/azkai/Desktop/Design Pattern/array1.java",
+		"/C/Users/azkai/Desktop/Design Pattern/ElmtList.java",
+		"/C/Users/azkai/Desktop/Design Pattern/MainList.java",
+		"/C/Users/azkai/Desktop/Design Pattern/List.java",
+		"/F/Portfolio/Pribadi/Beasiswa/Berkas Kelengkapan/Chevening/Essay Chevening",
+		"/H/Materi Kuliah/MatKul Jurusan/Pemrograman Berorientasi Objek/Program Kecil/Demo.java",
+		"/H/Materi Kuliah/MatKul Jurusan/Pemrograman Berorientasi Objek/Program Kecil/anak.java",
+		"/C/Users/azkai/Downloads/F8QZMHNIO4LYIGO.ino",
+		"/F/Portfolio/PatrIoT/Notula Kumpul PatrIoT - Bahas Project Smart City.txt",
+		"/F/Portfolio/Pribadi/Beasiswa/Komponen Biaya S2 dan S3",
+		"/F/Portfolio/PatrIoT/Notula Kumpul PatrIoT - Bahas Project Smart City",
+		"/F/Portfolio/PatrIoT/Notula Kumpul PatrIoT.txt",
+		"/C/Users/azkai/Desktop/Dasar C++/BAB 8/Program Class Polymorphism Pure Virtual.cpp",
+		"/C/Users/azkai/Desktop/Dasar C++/BAB 8/Program Class Polymorphism Virtual.cpp",
+		"/C/Users/azkai/Desktop/Dasar C++/BAB 8/Program Class Overloading Operator.cpp",
+		"/C/Users/azkai/Desktop/Dasar C++/BAB 8/Program Contoh Class Polymorphism.cpp",
+		"/C/Users/azkai/Desktop/Dasar C++/BAB 8/Program Class Multiple Inheritance.cpp",
+		"/C/Users/azkai/Desktop/Dasar C++/BAB 8/Program Class Inheritance.cpp",
+		"/C/Users/azkai/Desktop/Dasar C++/BAB 8/Program Class Overloading Constructor.cpp",
+		"/C/Users/azkai/Desktop/Dasar C++/BAB 8/Program Friend Classes.cpp",
+		"/C/Users/azkai/Desktop/Dasar C++/BAB 8/Program Pointer Pada Class.cpp",
+		"/C/Users/azkai/Desktop/Dasar C++/BAB 8/Program Contoh Class Constructor.cpp",
+		"/C/Users/azkai/Desktop/Dasar C++/BAB 8/Program Contoh Class.cpp",
+		"/C/xampp/htdocs/iot-app/data_review.php",
+		"/H/Materi Kuliah/Pemrograman Berorientasi Objek/Program Kecil/HelloWorld.java",
+		"/H/Materi Kuliah/Pemrograman Berorientasi Objek/Program Kecil/itrfc2.java",
+		"/H/Materi Kuliah/Pemrograman Berorientasi Objek/Program Kecil/itrfc1.class",
+		"/H/Materi Kuliah/Pemrograman Berorientasi Objek/Program Kecil/itrfc1.java",
+		"/C/Users/azkai/Desktop/Notula Kumpul PatrIoT.txt",
+		"/C/Users/azkai/Desktop/Dasar C++/BAB 5/Program Penggunaan inline function.cpp",
+		"/C/Users/azkai/Desktop/Dasar C++/BAB 5/Program Argumen pada fungsi main().cpp",
+		"/C/Users/azkai/Desktop/Dasar C++/BAB 5/Program Contoh overloaded function.cpp",
+		"/C/Users/azkai/Desktop/Dasar C++/BAB 5/Program Penggunaan fungsi void.cpp",
+		"/C/Users/azkai/Desktop/Dasar C++/BAB 5/Program Contoh prototype fungsi.cpp",
+		"/C/Users/azkai/Desktop/Dasar C++/BAB 5/Program Contoh penggunaan fungsi.cpp",
+		"/C/Users/azkai/Desktop/Dasar C++/BAB 7/Program Pointer sebagai parameter.cpp",
+		"/C/Users/azkai/Desktop/Dasar C++/BAB 7/Program Contoh pointer dan array.cpp",
+		"/C/Users/azkai/Desktop/Dasar C++/BAB 7/Program Contoh operator dereference.cpp",
+		"/C/Users/azkai/Desktop/Dasar C++/BAB 7/Program Contoh operator reference.cpp",
+		"/C/Users/azkai/Desktop/Dasar C++/BAB 7/Program Pointer pada pointer.cpp",
+		"/C/Users/azkai/Desktop/Dasar C++/BAB 6/Program Array pada parameter fungsi.cpp",
+		"/C/Users/azkai/Desktop/Dasar C++/BAB 6/Program Contoh array of character.cpp",
+		"/C/Users/azkai/Desktop/Dasar C++/BAB 6/Program Array multidimensi.cpp",
+		"/C/Users/azkai/Desktop/Dasar C++/BAB 6/Program Contoh Penggunaan Array.cpp",
+		"/C/Users/azkai/Desktop/Dasar C++/BAB 4/Program Perintah goto.cpp",
+		"/C/Users/azkai/Desktop/Dasar C++/BAB 4/Program Switching tanpa break.cpp",
+		"/C/Users/azkai/Desktop/Dasar C++/BAB 4/Program Penggunaan Operator Kondisi.cpp",
+		"/C/Users/azkai/Desktop/Dasar C++/BAB 4/Program Operator Kondisi Majemuk.cpp",
+		"/C/Users/azkai/Desktop/Dasar C++/BAB 4/Program Switching.cpp",
+		"/C/Users/azkai/Desktop/Dasar C++/BAB 4/Program Penggunaan do-while.cpp",
+		"/C/Users/azkai/Desktop/Dasar C++/BAB 4/Program Modifikasi for.cpp",
+		"/C/Users/azkai/Desktop/Dasar C++/BAB 4/Program Looping for.cpp",
+		"/C/Users/azkai/Desktop/Dasar C++/BAB 4/Program Looping dengan continue.cpp",
+		"/C/Users/azkai/Desktop/Dasar C++/BAB 4/Program Infinite Loops.cpp",
+		"/C/Users/azkai/Desktop/Dasar C++/BAB 4/Program Infinite Looping dengan break.cpp",
+		"/C/Users/azkai/Desktop/Dasar C++/BAB 4/Program Looping While.cpp",
+		"/C/Users/azkai/Desktop/Dasar C++/BAB 4/Program Percabangan if-else jamak.cpp",
+		"/C/Users/azkai/Desktop/Dasar C++/BAB 4/Program Percabangan if-else.cpp",
+		"/C/Users/azkai/Desktop/Dasar C++/BAB 4/Program Percabangan if.cpp",
+		"/C/Users/azkai/Desktop/Dasar C++/BAB 2/BItwise Operator.cpp",
+		"/C/Users/azkai/Desktop/Dasar C++/BAB 2/Operator Increment dan Decrement.cpp",
+		"/C/Users/azkai/Desktop/Dasar C++/BAB 3/penggunaan getline().cpp",
+		"/C/Users/azkai/Desktop/Dasar C++/BAB 3/Preprocessor #define.cpp",
+		"/C/Users/azkai/Desktop/Dasar C++/BAB 3/perintah cin.cpp",
+		"/C/Users/azkai/Desktop/Jobdesk.txt",
+		"/C/Users/azkai/Desktop/Jobdesk",
+		"/C/xampp/htdocs/gaslpg/index.html",
+		"/C/xampp/htdocs/gaslpg/dbconnect.php",
+		"/C/xampp/htdocs/gaslpg/data_review.php",
+		"/C/xampp/htdocs/gaslpg/add_data.php",
+		"/C/xampp/htdocs/backend/ormconfig.json",
+		"/F/Portfolio/Pribadi/Beasiswa/Note Cadangan Scholarship",
+		"/F/Portfolio/Pribadi/Beasiswa/Berkas Kelengkapan/SISS/Konten Motivation Letter",
+		"/C/Users/azkai/Desktop/error_log",
+		"/F/Portfolio/Riset LPDP/Notula Rapat Koordinasi Pasca Monev Internal",
+		"/F/Portfolio/Riset LPDP/Notula Monev Akhir Tahun Pertama Penelitian LPDP.txt",
+		"/C/xampp/htdocs/iot-app/index.html",
+		"/C/xampp/htdocs/iot-app/dbconnect.php",
+		"/C/xampp/htdocs/iot-app/add_data.php",
+		"/C/Users/azkai/Desktop/Note Cadangan Scholarship",
+		"/C/Users/azkai/Desktop/Loker Cadangan"
+	],
+	"find":
+	{
+		"height": 40.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "etilang.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
