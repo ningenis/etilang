@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Violation;
 use Illuminate\Http\Request;
 
 class ViolationController extends Controller
@@ -13,7 +14,8 @@ class ViolationController extends Controller
      */
     public function index()
     {
-        return "Hello";
+        $items = Violation::paginate(10);
+        return view('violations.index', ['items' => $items]);
     }
 
     /**

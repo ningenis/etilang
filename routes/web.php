@@ -26,7 +26,7 @@ Route::get('violation', function () {
     ];
 });
 
-Route::resource('violations', 'ViolationController@index');
+Route::resource('violations', 'ViolationController');
 
 Route::post('hello/test', function () {
     return 'Hello World 2';
