@@ -26,7 +26,7 @@ Route::get('violation', function () {
     ];
 });
 
-Route::resource('violations', 'ViolationController');
+Route::resource('violations', 'ViolationController')->middleware('auth');
 
 Route::post('hello/test', function () {
     return 'Hello World 2';
