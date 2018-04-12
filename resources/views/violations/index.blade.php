@@ -5,6 +5,9 @@
 	<div class="row">
 		<div class="col">
 			<h3>Daftar Pelanggaran</h3>
+			@if(Session::has('message'))
+				<div class="alert alert-success">{{ Session::get('message') }}</div>
+			@endif
 			<a href="{{ route('violations.create') }}" class="btn btn-primary">Tambah Pelanggaran</a>
 			<br></br>
 			<table class="table table-bordered table-striped">
@@ -23,8 +26,13 @@
 						<td>{{ $item->violator_name }}</td>
 						<td>{{ $item->violator_identity_number }}</td>
 						<td>
+							<form action="{{ route('violations.destroy', $item->id) }}" method="post">
+								{{ csrf_field() }}
+								@method('DELETE')
 							<a href="{{ route('violations.edit', $item->id) }}" class="btn btn-info"><span class="fa fa-pencil"></span>Edit</a>
-							<a href="{{ route('violations.destroy', $item->id) }}" class="btn btn-danger">Delete</a>
+							<!-- <a href="{{ route('violations.destroy', $item->id) }}" class="btn btn-danger">Delete</a> -->
+							<button type="submit" class="btn btn-danger">Delete</button>
+							</form>
 						</td>
 					</tr>
 					@endforeach

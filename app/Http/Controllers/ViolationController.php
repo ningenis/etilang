@@ -42,7 +42,7 @@ class ViolationController extends Controller
         $violation->officer_id = $request->user()->id;
         $violation->status = "NEW";
         $violation->save();
-        return redirect()->route('violations.index');
+        return redirect()->route('violations.index')->with('message', 'Data has been successfully added');
     }
 
     /**
@@ -77,7 +77,13 @@ class ViolationController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $violation = Violation::find($id);
+        $violation->violator_identity_number = $request->violator_identity_number;
+        $violation->violator_name = $request->violator_name;
+        $violation->officer_id = $request->user()->id;
+        $violation->status = "NEW";
+        $violation->save();
+        return redirect()->route('violations.index')->with('message', 'Data has been successfully edited');
     }
 
     /**
@@ -88,6 +94,8 @@ class ViolationController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $violation = Violation::find($id);
+        $violation->delete();
+        return redirect()->route('violations.index')->with('message', 'Data has been successfully deleted');
     }
 }
