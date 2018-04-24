@@ -13,8 +13,12 @@
                             {{ session('status') }}
                         </div>
                     @endif
-
-                    You are logged in!
+                    <h3>Daftar Pos Jaga</h3>
+                    <ul>
+                        @foreach (auth()->user()->stations as $station)
+                        <li>{{ $station->address }}</li>
+                        @endforeach
+                    </ul>
                 </div>
             </div>
         </div>

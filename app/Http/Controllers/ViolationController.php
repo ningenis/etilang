@@ -41,11 +41,21 @@ class ViolationController extends Controller
     public function store(Request $request)
     {
         $violation = new Violation();
+        $request->validate([
+            'violator_identity_number' => 'required',
+            'violator_name' => 'required',
+        ]);
         $violation->violator_identity_number = $request->violator_identity_number;
         $violation->violator_name = $request->violator_name;
-        $violation->officer_id = $request->user()->id;
         $violation->status = "NEW";
-        $violation->save();
+
+        //$violation->officer_id = $request->user()->id;
+
+        $user = $request->user();
+        $violation->user()->associate($user);
+        $user->violations()->save($violation);
+
+        //$violation->save();
         return redirect()->route('violations.index')->with('message', 'Data berhasil ditambahkan');
     }
 

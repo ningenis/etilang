@@ -11,16 +11,17 @@ class UsersSeeder extends Seeder
      */
     public function run()
     {
-        DB::table('users')->insert([
+        App\User::create([
             'name' => 'Petugas 1',
             'email' => 'petugas1@gmail.com',
             'password' => bcrypt('secret'),
         ]);
-        DB::table('users')->insert([
+        App\User::create([
             'name' => 'Petugas 2',
             'email' => 'petugas2@gmail.com',
             'password' => bcrypt('secret'),
         ]);
+        /*
         DB::table('users')->insert([
             'name' => 'Pelanggar 1',
             'email' => 'pelanggar1@gmail.com',
@@ -31,5 +32,9 @@ class UsersSeeder extends Seeder
             'email' => 'pelanggar2@gmail.com',
             'password' => bcrypt('secret'),
         ]);
+        */
+        factory(App\User::class, 50)->create()->each(function ($user) {
+            $user->violations()->saveMany(factory(App\Violation::class)->times(10)->make());
+        });
     }
 }

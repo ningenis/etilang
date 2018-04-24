@@ -11,6 +11,6 @@ class ViolationsSeeder extends Seeder
      */
     public function run()
     {
- 		factory(App\Violation::class, 100)->create();
+
     }
 }
