@@ -4,6 +4,34 @@
 		"selected_items":
 		[
 			[
+				"l",
+				"li\tTag"
+			],
+			[
+				"u",
+				"ul\tTag"
+			],
+			[
+				"re",
+				"required\tAttr"
+			],
+			[
+				"vio",
+				"violator_identity_number"
+			],
+			[
+				"viola",
+				"violation"
+			],
+			[
+				"c",
+				"class\tAttr"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
 				"sta",
 				"static"
 			],
@@ -43,6 +71,187 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "routes/web.php",
+			"settings":
+			{
+				"buffer_size": 1040,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "database/migrations/2018_03_28_083749_create_violations_table.php",
+			"settings":
+			{
+				"buffer_size": 850,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "database/seeds/StationSeeder.php",
+			"settings":
+			{
+				"buffer_size": 668,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "database/seeds/UsersSeeder.php",
+			"settings":
+			{
+				"buffer_size": 1068,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "database/factories/ViolationsFactory.php",
+			"settings":
+			{
+				"buffer_size": 354,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "database/seeds/ViolationsSeeder.php",
+			"settings":
+			{
+				"buffer_size": 195,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "database/seeds/DatabaseSeeder.php",
+			"settings":
+			{
+				"buffer_size": 324,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/xampp/htdocs/etilang2/Training Laravel 7.txt",
+			"settings":
+			{
+				"buffer_size": 38,
+				"encoding": "UTF-8",
+				"line_ending": "Windows",
+				"name": "Training Laravel 7 (26 April 2018) :"
+			}
+		},
+		{
+			"file": "database/migrations/2018_04_24_080904_create_stations_table.php",
+			"settings":
+			{
+				"buffer_size": 881,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "resources/views/violations/index.blade.php",
+			"settings":
+			{
+				"buffer_size": 1384,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "resources/views/violations/create.blade.php",
+			"settings":
+			{
+				"buffer_size": 982,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/Http/Controllers/StationController.php",
+			"settings":
+			{
+				"buffer_size": 1608,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "resources/views/home.blade.php",
+			"settings":
+			{
+				"buffer_size": 834,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "resources/views/violations/edit.blade.php",
+			"settings":
+			{
+				"buffer_size": 1115,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/Http/Controllers/ViolationController.php",
+			"settings":
+			{
+				"buffer_size": 3766,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Providers/AuthServiceProvider.php",
+			"settings":
+			{
+				"buffer_size": 703,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/User.php",
+			"settings":
+			{
+				"buffer_size": 732,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/Station.php",
+			"settings":
+			{
+				"buffer_size": 264,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Violation.php",
+			"settings":
+			{
+				"buffer_size": 297,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "resources/views/layouts/app.blade.php",
+			"settings":
+			{
+				"buffer_size": 3401,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -76,10 +285,26 @@
 	},
 	"expanded_folders":
 	[
-		"/C/xampp/htdocs/etilang"
+		"/C/xampp/htdocs/etilang",
+		"/C/xampp/htdocs/etilang/app",
+		"/C/xampp/htdocs/etilang/app/Http",
+		"/C/xampp/htdocs/etilang/app/Http/Controllers"
 	],
 	"file_history":
 	[
+		"/C/xampp/htdocs/etilang2/Training Laravel 6.txt",
+		"/C/Users/azkai/Desktop/Coretan.txt",
+		"/C/xampp/htdocs/etilang/app/Providers/AppServiceProvider.php",
+		"/C/xampp/htdocs/etilang2/Training Laravel 5.txt",
+		"/C/xampp/htdocs/etilang2/Training Laravel 4.txt",
+		"/C/xampp/htdocs/etilang2/Training Laravel 2.txt",
+		"/C/xampp/htdocs/etilang2/Training Laravel 4",
+		"/C/xampp/htdocs/etilang2/Training Laravel 3.txt",
+		"/C/xampp/htdocs/etilang2/Training Laravel 1.txt",
+		"/C/xampp/htdocs/etilang/config/app.php",
+		"/C/xampp/htdocs/etilang/.env",
+		"/C/xampp/htdocs/etilang/resources/views/layouts/app.blade.php",
+		"/C/xampp/htdocs/etilang/app/Http/Controllers/ViolationController.php",
 		"/H/Materi Kuliah/Organisasi dan Arsitektur Komputer/Contoh Tugas Besar/OrkomTubes/ADD/Add.cpp",
 		"/C/xampp/htdocs/voltmeter/gaslpg.sql",
 		"/C/xampp/htdocs/voltmeter/add_data.php",
@@ -194,24 +419,11 @@
 		"/C/Users/azkai/Desktop/Jobdesk.txt",
 		"/C/Users/azkai/Desktop/Jobdesk",
 		"/C/xampp/htdocs/gaslpg/index.html",
-		"/C/xampp/htdocs/gaslpg/dbconnect.php",
-		"/C/xampp/htdocs/gaslpg/data_review.php",
-		"/C/xampp/htdocs/gaslpg/add_data.php",
-		"/C/xampp/htdocs/backend/ormconfig.json",
-		"/F/Portfolio/Pribadi/Beasiswa/Note Cadangan Scholarship",
-		"/F/Portfolio/Pribadi/Beasiswa/Berkas Kelengkapan/SISS/Konten Motivation Letter",
-		"/C/Users/azkai/Desktop/error_log",
-		"/F/Portfolio/Riset LPDP/Notula Rapat Koordinasi Pasca Monev Internal",
-		"/F/Portfolio/Riset LPDP/Notula Monev Akhir Tahun Pertama Penelitian LPDP.txt",
-		"/C/xampp/htdocs/iot-app/index.html",
-		"/C/xampp/htdocs/iot-app/dbconnect.php",
-		"/C/xampp/htdocs/iot-app/add_data.php",
-		"/C/Users/azkai/Desktop/Note Cadangan Scholarship",
-		"/C/Users/azkai/Desktop/Loker Cadangan"
+		"/C/xampp/htdocs/gaslpg/dbconnect.php"
 	],
 	"find":
 	{
-		"height": 40.0
+		"height": 26.0
 	},
 	"find_in_files":
 	{
@@ -225,6 +437,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"hasMany",
+			">\n"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -242,8 +456,595 @@
 	"groups":
 	[
 		{
+			"selected": 7,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "routes/web.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1040,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								735,
+								735
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 144.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 13,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "database/migrations/2018_03_28_083749_create_violations_table.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 850,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								671,
+								671
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 108.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 17,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "database/seeds/StationSeeder.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 668,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								561,
+								464
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "database/seeds/UsersSeeder.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1068,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1059,
+								1059
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 162.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 14,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "database/factories/ViolationsFactory.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 354,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								106,
+								106
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 15,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "database/seeds/ViolationsSeeder.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 195,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								186,
+								186
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 16,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "database/seeds/DatabaseSeeder.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 324,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								252,
+								252
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/C/xampp/htdocs/etilang2/Training Laravel 7.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 38,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								38,
+								38
+							]
+						],
+						"settings":
+						{
+							"auto_name": "Training Laravel 7 (26 April 2018) :",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "database/migrations/2018_04_24_080904_create_stations_table.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 881,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								827,
+								827
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "resources/views/violations/index.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1384,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1017,
+								1017
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 162.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "resources/views/violations/create.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 982,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								868,
+								562
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 54.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "app/Http/Controllers/StationController.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1608,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								334,
+								334
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "resources/views/home.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 834,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								614,
+								614
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "resources/views/violations/edit.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1115,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								854,
+								854
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "app/Http/Controllers/ViolationController.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3766,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3303,
+								3303
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1458.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "app/Providers/AuthServiceProvider.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 703,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								374,
+								374
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 16,
+					"file": "app/User.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 732,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								509,
+								509
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 107.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 17,
+					"file": "app/Station.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 264,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								258,
+								258
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 18,
+					"file": "app/Violation.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 297,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								282,
+								282
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 18,
+					"type": "text"
+				},
+				{
+					"buffer": 19,
+					"file": "resources/views/layouts/app.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3401,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								860,
+								860
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 126.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 19,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -324,7 +1125,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 150.0,
+	"side_bar_width": 154.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

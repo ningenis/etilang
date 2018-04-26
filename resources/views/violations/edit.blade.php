@@ -21,8 +21,8 @@
 				<div class="form-group">
 					<label>Pos Jaga Tempat Kejadian</label>
 					  <select name="station_id" class="form-control" value="{{ $violation->station_id }}" required>
-					  @foreach ($stations as $station)	
-					    <option value="{{ $station['id'] }}">{{ $station['address'] }}</option>
+					  @foreach (auth()->user()->stations as $station)	
+					    <option value="{{ $station->id }}">{{ $station->address }}</option>
 					  @endforeach
 					  </select>
 				</div>

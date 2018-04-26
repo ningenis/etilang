@@ -1,0 +1,13 @@
+Training Laravel 1 (26 Maret 2018) :
+- Dokumentasi utama : laravel.com/docs 
+- Composer : PHP Dependency Manager
+- Install Laravel dengan metode kedua lebih aman
+- PHP Artisan Serve : Untuk running laravelnya
+
+- Process Maker : Workflow Simplified
+
+User Requirement -> Penggambaran Proses Bisnis -> Use Case -> Mockup
+
+Bahan untuk rabu :
+- The Basics (Utamanya Routing, Controller, View)
+- Eloquent (Model)

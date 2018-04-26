@@ -22,23 +22,21 @@
 					</tr>
 				</thead>
 				<tbody>
-					@foreach ($items as $item)
+					@forelse ($items as $item)
 					<tr>
 						<td>{{ $item->id }}</td>
 						<td>{{ $item->violator_name }}</td>
 						<td>{{ $item->user->name }}</td>
 						<td>{{ $item->violator_identity_number }}</td>
-						@foreach ($stations as $station)
-						@if ($station->id == $item->station_id)
-						<td>{{ $station->address }}</td>
-						@endif
-						@endforeach
+						<td>{{ $item->station->address }}</td>
 						<td>
 							<a href="{{ route('violations.edit', $item) }}" class="btn btn-info"><span class="fa fa-pencil"></span>Edit</a>
 							<a href="{{ route('violations.delete', $item) }}" class="btn btn-danger">Delete</a>
 						</td>
 					</tr>
-					@endforeach
+					@empty
+					    <td colspan="6">Belum ada data</td>
+					@endforelse
 				</tbody>
 			</table>
 			{!! $items->links() !!}

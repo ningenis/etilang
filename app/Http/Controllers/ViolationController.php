@@ -5,6 +5,8 @@ namespace App\Http\Controllers;
 use Auth; 
 use App\Violation;
 use Illuminate\Http\Request;
+use App\Http\Requests\ViolationStore;
+use App\Events\ViolationCreated;
 
 class ViolationController extends Controller
 {
@@ -18,10 +20,10 @@ class ViolationController extends Controller
         //$items = Violation::latest('updated_at')->paginate(10);
         //$items = Violation::where('officer_id', Auth::id())->paginate(10);
         $items = $request->user()->violations()->latest('updated_at')->paginate(10);
-        $stations = new StationController();
-        $stations = $stations->index($request);
+        //$stations = new StationController();
+        //$stations = $stations->index($request);
         //$items = Auth::user()->violations()->latest('updated_at')->paginate(10);
-        return view('violations.index', ['items' => $items, 'stations' => $stations]);
+        return view('violations.index', ['items' => $items]);
     }
 
     /**
@@ -31,10 +33,7 @@ class ViolationController extends Controller
      */
     public function create(Request $request)
     {
-        $stations = new StationController();
-        $stations = $stations->index($request);
-        //dd($stations);
-        return view('violations.create', ['stations' => $stations]);
+        return view('violations.create');
     }
 
     /**
@@ -43,24 +42,22 @@ class ViolationController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(ViolationStore $request)
     {
         $violation = new Violation();
-        $request->validate([
-            'violator_identity_number' => 'required',
-            'violator_name' => 'required',
-        ]);
-        $violation->violator_identity_number = $request->violator_identity_number;
-        $violation->violator_name = $request->violator_name;
+        $violation->fill($request->all());
+        //$violation->violator_identity_number = $request->violator_identity_number;
+        //$violation->violator_name = $request->violator_name;
         $violation->status = "NEW";
-        $violation->station_id = $request->station_id;
+        //$violation->station_id = $request->station_id;
 
         //$violation->officer_id = $request->user()->id;
 
         $user = $request->user();
         $violation->user()->associate($user);
+        $violation->station()->associate($request->station_id);
         $user->violations()->save($violation);
-
+        event(new ViolationCreated($violation));
         //$violation->save();
         return redirect()->route('violations.index')->with('message', 'Data berhasil ditambahkan');
     }
@@ -102,9 +99,10 @@ class ViolationController extends Controller
      */
     public function update(Request $request, Violation $violation)
     {
-        $violation->violator_identity_number = $request->get('violator_identity_number');
-        $violation->violator_name = $request->get('violator_name');
-        $violation->station_id = $request->get('station_id');
+        $violation->fill($request->all());
+        //$violation->violator_identity_number = $request->get('violator_identity_number');
+        //$violation->violator_name = $request->get('violator_name');
+        //$violation->station_id = $request->get('station_id');
         $violation->save();
         return redirect()->route('violations.index')->with('message', 'Data berhasil diedit');
     }
