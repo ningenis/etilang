@@ -27,6 +27,7 @@ Route::get('violation', function () {
 });
 
 Route::resource('violations', 'ViolationController')->middleware('auth');
+Route::resource('stations', 'StationController')->middleware('auth');
 Route::get('violations/{violation}/delete', 'ViolationController@destroy')->name('violations.delete');
 
 Route::post('hello/test', function () {

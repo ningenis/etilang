@@ -17,6 +17,7 @@
 						<th>Nama Pelanggar</th>
 						<th>Nama Petugas</th>
 						<th>Identitas Pelanggar</th>
+						<th>Pos Jaga</th>
 						<th>Aksi</th>
 					</tr>
 				</thead>
@@ -27,6 +28,11 @@
 						<td>{{ $item->violator_name }}</td>
 						<td>{{ $item->user->name }}</td>
 						<td>{{ $item->violator_identity_number }}</td>
+						@foreach ($stations as $station)
+						@if ($station->id == $item->station_id)
+						<td>{{ $station->address }}</td>
+						@endif
+						@endforeach
 						<td>
 							<a href="{{ route('violations.edit', $item) }}" class="btn btn-info"><span class="fa fa-pencil"></span>Edit</a>
 							<a href="{{ route('violations.delete', $item) }}" class="btn btn-danger">Delete</a>

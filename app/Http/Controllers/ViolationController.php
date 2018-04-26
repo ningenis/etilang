@@ -18,8 +18,10 @@ class ViolationController extends Controller
         //$items = Violation::latest('updated_at')->paginate(10);
         //$items = Violation::where('officer_id', Auth::id())->paginate(10);
         $items = $request->user()->violations()->latest('updated_at')->paginate(10);
+        $stations = new StationController();
+        $stations = $stations->index($request);
         //$items = Auth::user()->violations()->latest('updated_at')->paginate(10);
-        return view('violations.index', ['items' => $items]);
+        return view('violations.index', ['items' => $items, 'stations' => $stations]);
     }
 
     /**
@@ -27,9 +29,12 @@ class ViolationController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function create()
+    public function create(Request $request)
     {
-        return view('violations.create');
+        $stations = new StationController();
+        $stations = $stations->index($request);
+        //dd($stations);
+        return view('violations.create', ['stations' => $stations]);
     }
 
     /**
@@ -48,6 +53,7 @@ class ViolationController extends Controller
         $violation->violator_identity_number = $request->violator_identity_number;
         $violation->violator_name = $request->violator_name;
         $violation->status = "NEW";
+        $violation->station_id = $request->station_id;
 
         //$violation->officer_id = $request->user()->id;
 
@@ -78,8 +84,10 @@ class ViolationController extends Controller
      */
     public function edit(Request $request, Violation $violation)
     {
+        $stations = new StationController();
+        $stations = $stations->index($request);
         if($request->user()->can('edit-violation', $violation)) {
-            return view('violations.edit', ['violation' => $violation]);    
+            return view('violations.edit', ['violation' => $violation, 'stations' => $stations]);    
         } else {
             abort(404);  
         }
@@ -96,6 +104,7 @@ class ViolationController extends Controller
     {
         $violation->violator_identity_number = $request->get('violator_identity_number');
         $violation->violator_name = $request->get('violator_name');
+        $violation->station_id = $request->get('station_id');
         $violation->save();
         return redirect()->route('violations.index')->with('message', 'Data berhasil diedit');
     }

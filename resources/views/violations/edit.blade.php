@@ -18,6 +18,14 @@
 					<label>Nama Pelanggar</label>
 					<input type="text" name="violator_name" class="form-control" value="{{ $violation->violator_name}}">
 				</div>
+				<div class="form-group">
+					<label>Pos Jaga Tempat Kejadian</label>
+					  <select name="station_id" class="form-control" value="{{ $violation->station_id }}" required>
+					  @foreach ($stations as $station)	
+					    <option value="{{ $station['id'] }}">{{ $station['address'] }}</option>
+					  @endforeach
+					  </select>
+				</div>
 				<button type="submit" class="btn btn-primary">Submit</button>
 			</form>
 		</div>

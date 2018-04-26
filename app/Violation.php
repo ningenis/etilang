@@ -10,4 +10,8 @@ class Violation extends Model
     {
     	return $this->belongsTo(User::class, 'officer_id');
     }
+    public function station()
+    {
+    	return $this->belongsTo(Station::class, 'station_id');
+    }
 }
