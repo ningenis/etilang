@@ -8,7 +8,9 @@
 			@if(Session::has('message'))
 				<div class="alert alert-success">{{ Session::get('message') }}</div>
 			@endif
+			@role('officer')
 			<a href="{{ route('violations.create') }}" class="btn btn-primary"><span class="fa fa-plus"></span>Tambah Pelanggaran</a>
+			@endrole
 			<br></br>
 			<table class="table table-bordered table-striped">
 				<thead>
@@ -30,8 +32,10 @@
 						<td>{{ $item->violator_identity_number }}</td>
 						<td>{{ $item->station->address }}</td>
 						<td>
+							@role('officer')
 							<a href="{{ route('violations.edit', $item) }}" class="btn btn-info"><span class="fa fa-pencil"></span>Edit</a>
 							<a href="{{ route('violations.delete', $item) }}" class="btn btn-danger">Delete</a>
+							@endrole
 						</td>
 					</tr>
 					@empty

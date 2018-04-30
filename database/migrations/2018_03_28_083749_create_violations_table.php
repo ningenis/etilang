@@ -17,14 +17,15 @@ class CreateViolationsTable extends Migration
             $table->increments('id');
             $table->string('violator_identity_number');
             $table->string('violator_name');
+            $table->integer('officer_id')->unsigned();
             $table->integer('station_id')->unsigned();
             $table->string('status');
             $table->timestamps();
         });
 
-        Schema::table('violations', function (Blueprint $table) {
-            $table->integer('officer_id')->unsigned();
-        });
+        //Schema::table('violations', function (Blueprint $table) {
+            //$table->integer('officer_id')->unsigned();
+        //});
     }
 
     /**
@@ -35,8 +36,8 @@ class CreateViolationsTable extends Migration
     public function down()
     {
         Schema::dropIfExists('violations');
-        Schema::table('violations', function (Blueprint $table) {
-            $table->dropColumn('officer_id');
-        });
+        //Schema::table('violations', function (Blueprint $table) {
+            //$table->dropColumn('officer_id');
+        //});
     }
 }

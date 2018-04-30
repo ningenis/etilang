@@ -7,9 +7,17 @@ use App\Violation;
 use Illuminate\Http\Request;
 use App\Http\Requests\ViolationStore;
 use App\Events\ViolationCreated;
+use App\Services\ViolationService;
 
 class ViolationController extends Controller
 {
+    private $service;
+
+    public function __construct(ViolationService $service)
+    {
+        $this->service = $service;
+    }
+
     /**
      * Display a listing of the resource.
      *
@@ -44,21 +52,22 @@ class ViolationController extends Controller
      */
     public function store(ViolationStore $request)
     {
-        $violation = new Violation();
-        $violation->fill($request->all());
+        //$violation = new Violation();
+        //$violation->fill($request->all());
         //$violation->violator_identity_number = $request->violator_identity_number;
         //$violation->violator_name = $request->violator_name;
-        $violation->status = "NEW";
+        //$violation->status = "NEW";
         //$violation->station_id = $request->station_id;
 
         //$violation->officer_id = $request->user()->id;
 
-        $user = $request->user();
-        $violation->user()->associate($user);
-        $violation->station()->associate($request->station_id);
-        $user->violations()->save($violation);
-        event(new ViolationCreated($violation));
+        //$user = $request->user();
+        //$violation->user()->associate($user);
+        //$violation->station()->associate($request->station_id);
+        //$user->violations()->save($violation);
+        //event(new ViolationCreated($violation));
         //$violation->save();
+        $this->service->create($request->all());
         return redirect()->route('violations.index')->with('message', 'Data berhasil ditambahkan');
     }
 
@@ -97,13 +106,14 @@ class ViolationController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Violation $violation)
+    public function update(Violation $violation, Request $request)
     {
-        $violation->fill($request->all());
+        //$violation->fill($request->all());
         //$violation->violator_identity_number = $request->get('violator_identity_number');
         //$violation->violator_name = $request->get('violator_name');
         //$violation->station_id = $request->get('station_id');
-        $violation->save();
+        $this->service->update($violation, $request->all());
+        //$violation->save();
         return redirect()->route('violations.index')->with('message', 'Data berhasil diedit');
     }
 

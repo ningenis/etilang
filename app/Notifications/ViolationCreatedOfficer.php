@@ -43,7 +43,8 @@ class ViolationCreatedOfficer extends Notification
     {
         return (new MailMessage)
                     ->line('Anda Baru Saja Membuat Laporan Pelanggaran Baru.')
-                    ->line('Nama Pelanggar', $this->violation->violator_name)
+                    ->line('Nama Pelanggar: ' . $this->violation->violator_name)
+                    ->line('Nomor Identitas Pelanggar: ' . $this->violation->violator_identity_number)
                     ->line('Terima kasih sudah menggunakan aplikasi ini');
     }
 
